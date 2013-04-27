@@ -1,0 +1,12 @@
+import java.io.*;
+class polymex{
+	public static void main(Strings args[]) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		vehicle v = new vehicle();
+		sportsvehicle sv = new sportsvehicle("BMW",6000);
+		passengervehicle pv = new passengervehicle("RR",6);
+		v = sv;
+		v.display();
+		v = pv;
+		v.display();	
+	}

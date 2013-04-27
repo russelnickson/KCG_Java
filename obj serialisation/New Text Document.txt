@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+class Serialize{
+	public static void main(Strings args[]) throws exception {
+		{
+		test t;
+		dollar d = null;
+		rupee r = null;
+ 		ObjectOutputStream out = new ObjectOutputStream ( new FileOutputStream("money.txt");
+		Random randnumb = new Random();
+		Boolean rn = randnumb.nextBoolean();
+		if(rn){
+			
+		
